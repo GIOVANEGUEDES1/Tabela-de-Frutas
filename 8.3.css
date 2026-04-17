@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #ffcfd2;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* GRID PRINCIPAL */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* CARD HORIZONTAL */
+.card {
+  display: flex;
+  align-items: center;
+  background: #cfbaf0;
+  padding: 15px;
+  border-radius: 15px;
+  gap: 15px;
+}
+
+/* 🔥 IMAGENS DOS CARDS (AGORA FUNCIONA) */
+.card img {
+  width: 120px; /* tamanho padrão */
+  height: 120px;
+  object-fit: cover; /* evita deformar */
+  border-radius: 10px;
+}
+
+/* TEXTO */
+.card h2 {
+  margin: 0;
+}
+
+.card p {
+  margin: 5px 0 0;
+  color: #555;
+}
+
+/* DESTAQUE */
+.destaque {
+  display: flex;
+  align-items: center;
+  background: #90dbf4;
+  border: 2px solid #7aa67a;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 30px 0;
+  gap: 15px;
+}
+
+.icone {
+  font-size: 40px;
+}
+
+/* GRID PEQUENO */
+.grid-pequeno {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+/* CARD COLUNA */
+.card-coluna {
+  text-align: center;
+  background: #cfbaf0;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+/* 🔥 IMAGENS DOS CARDS PEQUENOS */
+.card-coluna img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.card-coluna h3 {
+  margin: 5px 0;
+}
+
+.card-coluna p {
+  color: #555;
+}
